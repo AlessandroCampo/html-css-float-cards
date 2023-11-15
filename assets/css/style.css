@@ -43,6 +43,8 @@ header p {
     margin: 15px;
     width: calc((100% / 3) - 30px);
     float: left;
+    box-shadow: 2px 2px 2px #D3D3D3;
+
 }
 
 .card img {
