@@ -10,6 +10,11 @@
     display: table;
 }
 
+html {
+    font-family: 'Fredoka', sans-serif;
+
+}
+
 body {
     width: 70%;
     margin: 0 auto;
@@ -21,9 +26,32 @@ header {
 }
 
 .card {
-    background-color: lightgray;
+    background-color: #0F0E17;
+    color: white;
     margin: 15px;
     width: calc((100% / 3) - 30px);
-    height: 150px;
     float: left;
+}
+
+.card img {
+    float: left;
+    height: 105px;
+}
+
+.info-container {
+    padding-left: calc(105px + 20px);
+}
+
+.info-container h3 {
+    margin-top: 10px;
+}
+
+.info-container p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-container a {
+    color: #00A3F5;
+    text-decoration: none;
 }
