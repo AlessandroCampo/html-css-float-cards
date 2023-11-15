@@ -62,13 +62,13 @@ header p {
 }
 
 .info-container p {
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     font-size: 15px;
 }
 
 .info-container a {
     color: #5FC2EB;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
 }
